@@ -1,16 +1,16 @@
 # Julien Pelletier
 
-**Développeur Fullstack, IoT et DevOps**  
+**Développeur senior fullstack, IoT et DevOps**  
 **France, Paris, Rennes**  
 📧 <jp.lantern522@aleeas.com> | [GitHub: jujax](https://github.com/jujax) | [LinkedIn](https://www.linkedin.com/in/julien-pltr)
 
 ## **Profil**
 
-Développeur Fullstack spécialisé dans l’IoT, je bénéficie d’une solide expérience dans la conception d’objets connectés, la création d’API Web et la gestion d’infrastructures Cloud. Passionné par l’innovation et les solutions embarquées, j’ai exploré plusieurs domaines, de la robotique aux systèmes connectés. Autonome et proactif, je m’attache toujours à fournir des solutions sur mesure et à relever de nouveaux défis techniques. Mon parcours autodidacte m’incite à demeurer en veille permanente et à enrichir continuellement mes connaissances.
+Développeur fullstack spécialisé dans l’IoT, je bénéficie d’une solide expérience dans la conception d’objets connectés, la création d’API Web et la gestion d’infrastructures Cloud. Passionné par l’innovation et les solutions embarquées, j’ai exploré plusieurs domaines, de la robotique aux systèmes connectés. Autonome et proactif, je m’attache toujours à fournir des solutions sur mesure et à relever de nouveaux défis techniques. Mon parcours autodidacte m’incite à demeurer en veille permanente et à enrichir continuellement mes connaissances.
 
 ## **Expérience Professionnelle**
 
-### **ZEWAY** – Développeur Fullstack, IoT et DevOps
+### **ZEWAY** – Lead dev backend, IoT et DevOps
 
 _Paris, France | Mars 2021 – Novembre 2024_
 
@@ -26,7 +26,7 @@ _Paris, France | Mars 2021 – Novembre 2024_
 
 - Traitement de données critiques avec AWS Lambda et AWS SQS, transformation de données IOT avec AWS Glue, Python et Jupyter, stockage de ces données dans AWS S3
 
-### **Freelance** – Développeur Fullstack & IoT
+### **Freelance** – Développeur fullstack & IoT
 
 _Paris, France | Décembre 2018 – Septembre 2021_
 
