@@ -10,7 +10,7 @@
 		"prettier": "^3.4.2"
 	},
 	"name": "cv",
-	"version": "1.3.0",
+	"version": "1.4.0",
 	"description": "Create pdf and html CV based on markdown README",
 	"main": "index.js",
 	"repository": "git@github.com:jujax/cv.git",
