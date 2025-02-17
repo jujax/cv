@@ -2,11 +2,11 @@
 
 **Développeur senior fullstack, IoT et DevOps**  
 **France, Paris, Rennes**  
-📧 <jp.lantern522@aleeas.com> | [GitHub: jujax](https://github.com/jujax) | [LinkedIn](https://www.linkedin.com/in/julien-pltr)
+📧 <phases91astucieuse@icloud.com> | [GitHub: jujax](https://github.com/jujax) | [LinkedIn](https://www.linkedin.com/in/julien-pltr)
 
 ## **Profil**
 
-Développeur fullstack spécialisé dans l’IoT, je bénéficie d’une solide expérience dans la conception d’objets connectés, la création d’API Web et la gestion d’infrastructures Cloud. Passionné par l’innovation et les solutions embarquées, j’ai exploré plusieurs domaines, de la robotique aux systèmes connectés. Autonome et proactif, je m’attache toujours à fournir des solutions sur mesure et à relever de nouveaux défis techniques. Mon parcours autodidacte m’incite à demeurer en veille permanente et à enrichir continuellement mes connaissances.
+Développeur fullstack spécialisé dans l’IoT, je bénéficie d’une solide expérience dans la conception d’objets connectés, la création d'appplications Web et Mobiles et la gestion d’infrastructures Cloud. Passionné par l’innovation et les solutions embarquées, autonome, débrouillard et proactif, je m’attache toujours à fournir des solutions sur mesure, comprendre et guider les besoins client et à relever de nouveaux défis techniques. Mon parcours autodidacte m’incite à demeurer en veille permanente et à enrichir continuellement mes connaissances, tout en restant rigoureux dans mes méthodes de travail et mon organisation.
 
 ## **Expérience Professionnelle**
 
@@ -38,26 +38,15 @@ _Paris, France | Décembre 2018 – Septembre 2021_
 
 - Création d’interfaces web pour la gestion des produits et des stocks en temps réel React
 
-### **Kalydia** – Intégrateur SAP, Développeur SAPUI5
-
-_Paris, France | Septembre 2017 – Décembre 2018_
-
-- Développement d’applications mobiles multiplateformes (Android, iOS, Windows) pour de grands comptes, avec accès en temps réel aux données SAP au moyen d'interfaces modernes (SAPUI5) sur dispositifs mobiles (tablettes Windows, smartphones Android)
-
 ## **Compétences Techniques**
 
 - **Langages** : JavaScript, Typescript, Python, C++
 - **Plateformes, Frameworks et Outils** : Node.js, React, Redux, NestJS, PlatformIO, Thingsboard, Jupyter
-
 - **Systèmes** : Linux (Debian, Ubuntu)
-
 - **Cloud et DevOps** : AWS, Google Cloud Platform, Ansible, Terraform, GitHub CI, GitLab CI, Docker, Kubernetes, AWS Lambda, AWS EC2, AWS RDS, AWS Elasticache, AWS SQS, AWS S3
-
 - **Bases de données** : PostgreSQL, Redis, SQLite, Cassandra, MongoDB
-
+- **Protocoles** : OpenVPN, MQTT, REST, SocketCAN, I2C, GPIO
 - **Microcontrôleurs** : ESP32, Arduino, STM32, Espressif SDK
-
-- **Protocoles** : MQTT, REST, SocketCAN, I2C, GPIO
 
 ## **Formation**
 
