@@ -4,6 +4,7 @@ const puppeteer = require("puppeteer");
 const { OpenAI } = require("openai");
 const axios = require("axios");
 const nodemailer = require("nodemailer");
+const fs = require("fs");
 
 const openai = new OpenAI({
 	apiKey: process.env.OPENAI_API_KEY
@@ -21,6 +22,7 @@ async function downloadMarkdownFile(url) {
 }
 
 function convertMarkdownToHTML(inputMarkdownFile) {
+	const cssFile = fs.readFileSync("style.css", "utf8");
 	try {
 		const outputHtmlFile = `
         <!DOCTYPE html>
@@ -29,7 +31,9 @@ function convertMarkdownToHTML(inputMarkdownFile) {
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>CV</title>
-            <link rel="stylesheet" href="style.css">
+            <style>
+			${cssFile}
+			</style>
         </head>
         <body>
             ${marked.parse(inputMarkdownFile)}

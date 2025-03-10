@@ -2,7 +2,7 @@ name: Run index.js with Yarn & Chrome
 
 on:
   repository_dispatch:
-    types: [custom-event]
+    types: [generate-cv]
 
 jobs:
   run-script:
