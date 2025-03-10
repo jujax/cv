@@ -1,12 +1,8 @@
 name: Run index.js with Yarn & Chrome
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  repository_dispatch:
+    types: [custom-event]
 
 jobs:
   run-script:
@@ -20,7 +16,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 22
-      
+
       - name: Install Yarn
         run: npm install -g yarn
 
@@ -35,34 +31,10 @@ jobs:
       - name: Run index.js
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          MARKDOWN_FILE_URL: ${{ secrets.MARKDOWN_FILE_URL }}
         run: yarn start
-
-      - name: Increment version with standard-version
-        id: versioning
-        run: |
-          git config --global user.email "you@example.com"
-          git config --global user.name "Your Name"
-          git add README.md
-          npx standard-version -a -r minor
-          echo "version=$(git describe --tags --abbrev=0)" >> "$GITHUB_OUTPUT"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
-
-      - name: Create a Release and add cv.pdf & cv.html
-        if: github.event_name == 'push'
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.versioning.outputs.version }}
-          name: "Version ${{ steps.versioning.outputs.version }}"
-          body: "Automatic generation of CV in PDF and HTML."
-          files: |
-            CV.*
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
